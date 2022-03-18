@@ -8,5 +8,15 @@ bream_weight=[242, 290, 340, 363, 430, 450, 500, 390, 450, 500, 475, 500,
 500, 340, 600, 600, 700, 700, 610, 650, 575, 685, 620, 680, 700, 725, 720,
 714, 850, 1000, 920, 955, 925, 975, 950]
 
+plt.scatter(bream_length,bream_weight)
+plt.xlabel('length')
+plt.ylabel('weight')
+plt.show()
+
 
 print(len(bream_length), len(bream_weight))
+
+
+#pip install matplotlib
+#->Fatal error in launcher: Unable to create process using
+#pip error해결 : python -m pip install matplotlib
